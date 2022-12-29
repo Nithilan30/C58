@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding-top: 550px;
+    text-align: center;
+}
+
+.profile {
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background:linear-gradient(#4361ee,);
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor:pointer;
+}
+
+.links{
+    float: left;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+#name{
+    font-size: 50px;
+    font-family: 'Andika', sans-serif;
+}
+#bio {
+font-family: 'Andika', sans-serif;
+padding: 50px;
+}
